@@ -13,7 +13,7 @@ async function quantidadeDeUsuarios(){
             y: quantidadeDeUsuarios,
             type: 'bar',
             maker:{
-                color: getcss(--cor-primaria)
+                color: getcss('--cor-primaria')
             }
             
         }
