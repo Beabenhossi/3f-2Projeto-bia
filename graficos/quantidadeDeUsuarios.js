@@ -18,6 +18,19 @@ async function quantidadeDeUsuarios(){
             
         }
     ]
+    const layout = {
+        plot_bgcolor: getcss('--cor-de-fundo'),
+        paper_bgcolor: getcss('--cor-de-fundo'),
+        title:{
+            text: 'Redes socias com mais usuarios no mundo',
+            x: 0,
+            font:{
+                color: getcss('--cor-primaria'),
+                family: getcss('--font'),
+                size: 30
+            }
+        }
+    }
 
     const grafico = document.createElement('div');
     grafico.className = 'grafico';
