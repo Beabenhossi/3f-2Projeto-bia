@@ -1,4 +1,4 @@
-import { getCSS, tikfont} from "./comum.js";
+import { getCSS, tickfont} from "./comum.js";
 
 async function quantidadeDeUsuarios(){
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
@@ -31,7 +31,7 @@ async function quantidadeDeUsuarios(){
             }
         },
         xaxis:{
-            tikfont: tikfont,
+            tikfont: tickfont,
             title:{
                 text: 'Nome das redes sociais',
                 font:{
@@ -40,7 +40,7 @@ async function quantidadeDeUsuarios(){
             }
         },
         yaxis:{
-            tikfont: tikfont,
+            tikfont: tickfont,
             title:{
                 text: 'Milhões de usuarios ativos',
                 font:{
